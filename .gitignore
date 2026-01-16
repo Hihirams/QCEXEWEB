@@ -1,0 +1,27 @@
+# Archivos del servidor local (no necesarios en GitHub Pages)
+server.py
+iniciar_webgl.bat
+
+# Archivos de sistema Windows
+Thumbs.db
+desktop.ini
+*.stackdump
+
+# Archivos de sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules (si usas alguna herramienta de build)
+node_modules/
+package-lock.json
