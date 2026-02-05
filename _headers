@@ -1,11 +1,15 @@
-/Build/*.wasm.gz
+/Build/QCEXEWEB.wasm.gz
   Content-Type: application/wasm
   Content-Encoding: gzip
+  Access-Control-Allow-Origin: *
 
-/Build/*.data.gz
+/Build/QCEXEWEB.data.gz
   Content-Type: application/octet-stream
   Content-Encoding: gzip
+  Access-Control-Allow-Origin: *
 
-/Build/*.js.gz
+/Build/QCEXEWEB.framework.js
   Content-Type: application/javascript
-  Content-Encoding: gzip
+
+/Build/QCEXEWEB.loader.js
+  Content-Type: application/javascript
